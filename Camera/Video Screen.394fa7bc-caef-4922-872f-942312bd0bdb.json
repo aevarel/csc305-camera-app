@@ -1,0 +1,199 @@
+{
+    "type": "Screen",
+    "translatedName": "Screen",
+    "reactType": "ViewWithProps",
+    "properties": {
+        "Height": "Fill container",
+        "Width": "Fill container",
+        "Layout": "column",
+        "Justification": "center",
+        "Alignment": "center",
+        "Visible": true,
+        "style": {
+            "marginTop": 0,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "shadowColor": "rgba(0, 0, 0, 0)",
+            "shadowOpacity": 0,
+            "scaledShadowOpacity": 0,
+            "shadowRadius": 0,
+            "shadowOffset": {
+                "width": 0,
+                "height": 0
+            },
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "display": "flex"
+        },
+        "ShowStatusBar": true,
+        "StatusBarStyle": "default",
+        "TranslucentStatusBar": false,
+        "StatusBarColor": "rgba(0,0,0,0.53)",
+        "TabNavigationOptions": {
+            "tabBarVisible": true
+        },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
+        "ScreenOrientation": "portrait",
+        "DesignerHeight": 667,
+        "DesignerWidth": 375,
+        "ResponsiveWidth": 375,
+        "isSimple": true,
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
+    },
+    "children": [
+        {
+            "type": "Video",
+            "label": "Video",
+            "translatedName": "Video",
+            "properties": {
+                "Play": false,
+                "Height": 205,
+                "Width": 311,
+                "Visible": true,
+                "X": 23,
+                "Y": 68,
+                "RelativeX": 23,
+                "RelativeY": 68,
+                "ResizeMode": "STRETCH",
+                "ParentId": "394fa7bc-caef-4922-872f-942312bd0bdb",
+                "position": "absolute",
+                "edgeOffsets": 68,
+                "style": {
+                    "position": "absolute",
+                    "left": "19.466666666666665%",
+                    "top": "15.59969831978542%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "f243b391-8464-4eeb-bb1f-cac3013ccc59",
+            "thunkableVersion": 420,
+            "name": "Video1"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Record Timed Video",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 47,
+                "Width": 194,
+                "Visible": true,
+                "X": 83,
+                "Y": 469,
+                "RelativeX": 83,
+                "RelativeY": 469,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "27.2%",
+                    "top": "38.45577211394303%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "d3327ce9-095d-40ca-b933-8b8159ea62c1",
+                "position": "absolute",
+                "edgeOffsets": 469
+            },
+            "children": [],
+            "id": "5f18b370-78cc-4c07-b216-5a94c34ccef9",
+            "thunkableVersion": 420,
+            "bindings": null,
+            "name": "Record_Timed"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Record Untimed Video",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 45,
+                "Width": 192,
+                "Visible": true,
+                "X": 83,
+                "Y": 402,
+                "RelativeX": 83,
+                "RelativeY": 402,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "27.2%",
+                    "top": "38.45577211394303%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "d3327ce9-095d-40ca-b933-8b8159ea62c1",
+                "position": "absolute",
+                "edgeOffsets": 402
+            },
+            "children": [],
+            "id": "14cbdb49-f2f5-495b-8ad4-d5fad85d8629",
+            "thunkableVersion": 420,
+            "bindings": null,
+            "name": "Record_Untimed"
+        }
+    ],
+    "id": "394fa7bc-caef-4922-872f-942312bd0bdb",
+    "thunkableVersion": 420,
+    "bindings": null,
+    "name": "Video Screen"
+}
